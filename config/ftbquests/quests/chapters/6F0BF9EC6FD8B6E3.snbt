@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F0BF9EC6FD8B6E3"
+	group: ""
+	id: "6F0BF9EC6FD8B6E3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"欢迎游玩(Exile Magic Construtor)"
+				"作者：YUAXIN"
+				"请勿将整合包进行修改后用于盈利"
+			]
+			id: "64E86092C60BDED3"
+			rewards: [{
+				id: "53D74CDBF2F3E2A9"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "651648389C4B72A3"
+				title: "欢迎"
+				type: "checkmark"
+			}]
+			x: -0.45d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5349F05EB811B03B"]
+			id: "37B803FA537C6E2A"
+			rewards: [{
+				count: 64
+				id: "30937F12887F909E"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78D86A3E3B57FDFB"
+				title: "小麦种子"
+				type: "checkmark"
+			}]
+			x: -0.4d
+			y: -2.05d
+		}
+		{
+			can_repeat: true
+			description: ["不要点！！！"]
+			id: "0964CC92E63160D3"
+			tasks: [{
+				id: "7EF04179A7A27091"
+				title: "避免反复弹出完成任务"
+				type: "checkmark"
+			}]
+			x: 2.15d
+			y: -2.1d
+		}
+		{
+			can_repeat: true
+			id: "0C65084A2B22CB69"
+			rewards: [
+				{
+					count: 64
+					id: "26E69E75C7E6C04E"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DBE737B118FE196"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65186227855AA9EA"
+				title: "食物照明"
+				type: "checkmark"
+			}]
+			x: -0.35d
+			y: -0.15d
+		}
+		{
+			id: "24946458300181C3"
+			rewards: [{
+				id: "174D16F73ED98418"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2794578A03C6C844"
+				type: "checkmark"
+			}]
+			x: 2.05d
+			y: -0.1d
+		}
+	]
+	title: "欢迎"
+}

@@ -1,0 +1,13 @@
+name = "Large Fluid Tank"
+filename = "largefluidtank-forge-20.7.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "659f7b1ffc0ebf91ff177931d1aa6e6d20b90aac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4810355
+project-id = 291006

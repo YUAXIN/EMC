@@ -1,0 +1,13 @@
+name = "[EMC]Exile Magic Constructor"
+author = "YUAXIN"
+version = "0.09.7"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c1d02907a5b1d7186ff86211e802db64c900a3bffafba7bd5286ea803d69093a"
+
+[versions]
+forge = "47.2.17"
+minecraft = "1.20.1"

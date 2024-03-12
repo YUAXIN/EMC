@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "173EB34F78E38531", title: "流放之人的造物" }
+		{ id: "5710CAA7592914F8", title: "荒古之遗藏" }
+		{ id: "4C7F96D024EB0650", title: "结束的前兆" }
+		{ id: "7CC7F1F9CC8E1088", title: "旁支另结" }
+	]
+}

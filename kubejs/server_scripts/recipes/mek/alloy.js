@@ -1,0 +1,30 @@
+ServerEvents.recipes(event => {
+    //高级精华
+    event.custom({
+        "type":"mekanism:metallurgic_infusing",
+        "chemicalInput":{"amount":40,"tag":"mekanism:refined_obsidian"},
+        "itemInput":{"ingredient":{"item":"mysticalagriculture:supremium_essence"}},
+        "output":{"item":"mysticalagriculture:imperium_essence"}
+    })
+    //富集黑曜石
+    event.custom({
+        "type":"mekanism:metallurgic_infusing",
+        "chemicalInput":{"amount":40,"tag":"mekanism:diamond"},
+        "itemInput":{"ingredient":{"item":"minecraft:obsidian"}},
+        "output":{"item":"mekanism:enriched_refined_obsidian"}
+    })
+    //mekanism:alloy_reinforced
+    event.custom({
+        "type":"mekanism:metallurgic_infusing",
+        "chemicalInput":{"amount":40,"tag":"mekanism:diamond"},
+        "itemInput":{"ingredient":{"item":"ae2:singularity"}},
+        "output":{"item":"mekanism:alloy_reinforced"}
+    })
+    //mekanism:alloy_atomic
+    event.custom({
+        "type":"mekanism:metallurgic_infusing",
+        "chemicalInput":{"amount":40,"tag":"mekanism:diamond"},
+        "itemInput":{"ingredient":{"item":"mysticalagriculture:imperium_essence"}},
+        "output":{"item":"mekanism:alloy_atomic"}
+    })
+})

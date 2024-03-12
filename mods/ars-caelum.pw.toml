@@ -1,0 +1,13 @@
+name = "Ars Caelum"
+filename = "ars_caelum-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef1cdddde79e7353615e9c63ca6c56129c0f6b5b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5118012
+project-id = 821651

@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6626BE8F50D86681"
+	group: "7CC7F1F9CC8E1088"
+	icon: "ae2:fluix_crystal"
+	id: "6626BE8F50D86681"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24A5D15318B0B415"
+			tasks: [{
+				id: "2640A57FFA479472"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"24A5D15318B0B415"
+				"21E89BFE2136978E"
+			]
+			id: "23CF7DDCFF27DC13"
+			tasks: [{
+				id: "1F5CA679927C9503"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"23CF7DDCFF27DC13"
+				"241CE962C700BFCD"
+			]
+			description: [
+				"奖励仅用于合成，请勿放置"
+				"为什么不试试伟大的发射魔符呢"
+			]
+			id: "1BBFF6441E6C8597"
+			rewards: [{
+				id: "0DBE677E5AAB84EB"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2409808573D52DD3"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "04BD184423989540"
+			tasks: [{
+				id: "784E7458B328A053"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			id: "21E89BFE2136978E"
+			tasks: [{
+				id: "017F2B885F3C10C0"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["21E89BFE2136978E"]
+			id: "04B56A41F26893D9"
+			tasks: [{
+				id: "45915C77679DE630"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2640A57FFA479472"]
+			id: "7F80DD757EE015CB"
+			tasks: [{
+				id: "0B6F0F597D655EFF"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"21E89BFE2136978E"
+				"23CF7DDCFF27DC13"
+			]
+			id: "0D80954230C17EC5"
+			tasks: [{
+				id: "0B6E56CC18DAF46B"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1BBFF6441E6C8597"
+				"24A5D15318B0B415"
+			]
+			id: "6CE1FE9C7EE9A5EE"
+			tasks: [{
+				id: "5E36AB2C30DE5F26"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1BBFF6441E6C8597"
+				"7F80DD757EE015CB"
+			]
+			id: "33DC0588F00F2FD6"
+			tasks: [{
+				id: "74D2F22E03B61978"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["04B56A41F26893D9"]
+			id: "51F3AF0265C02DF6"
+			tasks: [{
+				id: "1796546DE6822E79"
+				item: "mysticalagriculture:certus_quartz_seeds"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["23CF7DDCFF27DC13"]
+			id: "506EB56144511D00"
+			tasks: [{
+				id: "4352AB2157A3CA43"
+				item: "mysticalagriculture:fluix_seeds"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["23CF7DDCFF27DC13"]
+			id: "241CE962C700BFCD"
+			tasks: [{
+				id: "656F1E890EF016F2"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+	]
+	tags: ["1"]
+	title: "旁枝：科技启蒙"
+}

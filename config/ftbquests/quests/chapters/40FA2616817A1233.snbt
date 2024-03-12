@@ -1,0 +1,532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40FA2616817A1233"
+	group: "5710CAA7592914F8"
+	icon: "mysticalagriculture:supremium_essence"
+	id: "40FA2616817A1233"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"52B060558FCB7DB1"
+				"6DA572DCC7F2D111"
+			]
+			id: "36CA52452575AAC9"
+			rewards: [{
+				count: 64
+				id: "5F269DCDC0494992"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CC5D58818735CA0"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -6.2d
+			y: -10.6d
+		}
+		{
+			dependencies: ["386065E4275F51D1"]
+			id: "5C27002C4856A03F"
+			rewards: [{
+				count: 512
+				id: "3635B38ADF7A7763"
+				item: "minecraft:candle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2C21C4F63300CA"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.15d
+			y: -8.05d
+		}
+		{
+			dependencies: ["47810D43DF1C0673"]
+			id: "4390613FD8774F89"
+			tasks: [{
+				id: "3C4074662BD9612C"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.85d
+		}
+		{
+			dependencies: ["4390613FD8774F89"]
+			id: "5E4012F348E74282"
+			tasks: [{
+				id: "431522E8FDBCDE46"
+				item: "mysticalagriculture:blaze_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.25d
+		}
+		{
+			dependencies: [
+				"3C3EC0E9345CBD5D"
+				"6B2FD3867A1FD2CC"
+			]
+			description: [
+				"世界上似乎存在一种邪恶的树苗"
+				"你不妨去寻找一下"
+			]
+			id: "695F1F3945B73D7A"
+			tasks: [{
+				id: "6333ADAE6B19CE71"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			x: -6.2d
+			y: -5.35d
+		}
+		{
+			dependencies: ["695F1F3945B73D7A"]
+			id: "15815F7DA67E9BB0"
+			tasks: [{
+				id: "31A566707FA57649"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.3d
+			y: -5.35d
+		}
+		{
+			dependencies: ["15815F7DA67E9BB0"]
+			id: "7FD4FD7EF20E9881"
+			tasks: [{
+				id: "07F3CA74EBF60044"
+				item: "evilcraft:promise_acceptor_iron"
+				type: "item"
+			}]
+			x: -2.3d
+			y: -5.35d
+		}
+		{
+			dependencies: ["4390613FD8774F89"]
+			id: "1C75AF80AB47C686"
+			tasks: [{
+				id: "7CF1D5B239B607A2"
+				item: "occultism:chalk_red_impure"
+				type: "item"
+			}]
+			x: -0.65d
+			y: -5.45d
+		}
+		{
+			dependencies: [
+				"5C27002C4856A03F"
+				"5876C61AA0966CEE"
+			]
+			description: ["记得多做几个粉笔"]
+			id: "3C3EC0E9345CBD5D"
+			tasks: [{
+				id: "6CC1EB9BF82E6612"
+				item: "occultism:chalk_gold_impure"
+				type: "item"
+			}]
+			x: -7.35d
+			y: -6.8d
+		}
+		{
+			dependencies: ["5C27002C4856A03F"]
+			id: "6B2FD3867A1FD2CC"
+			rewards: [{
+				id: "1B695BDAA4BAAA9C"
+				item: {
+					Count: 1b
+					id: "occultism:book_of_binding_bound_afrit"
+					tag: {
+						spiritName: "Crudellkyl"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "038C0E30DDB04FDB"
+				item: "occultism:chalk_purple_impure"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.85d
+		}
+		{
+			dependencies: ["3C3EC0E9345CBD5D"]
+			id: "111B074BE3FCF36B"
+			tasks: [{
+				id: "4B72CFA01C53D696"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			x: -9.35d
+			y: -6.75d
+		}
+		{
+			dependencies: ["37EEFFFBC53DFD0C"]
+			id: "0167E5A1ADE79428"
+			tasks: [{
+				id: "34A69CD5B65F10B2"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			x: -9.45d
+			y: -8.95d
+		}
+		{
+			dependencies: ["3C3EC0E9345CBD5D"]
+			description: ["似乎可以用残缺的粉笔？"]
+			id: "21BDFF0CA31026BA"
+			tasks: [{
+				id: "5466FADDD011B268"
+				item: "evilcraft:promise_acceptor_gold"
+				type: "item"
+			}]
+			x: -8.3d
+			y: -5.35d
+		}
+		{
+			dependencies: ["21BDFF0CA31026BA"]
+			id: "2D11537401153578"
+			tasks: [{
+				id: "4141626B5D85EC9B"
+				item: "evilcraft:promise_acceptor_diamond"
+				type: "item"
+			}]
+			x: -8.35d
+			y: -3.45d
+		}
+		{
+			dependencies: ["2D11537401153578"]
+			id: "68176CCA8A2B7FA1"
+			tasks: [{
+				id: "2A323F4BB8674693"
+				item: "evilcraft:promise_tier_3"
+				type: "item"
+			}]
+			x: -8.35d
+			y: -1.6d
+		}
+		{
+			dependencies: ["21BDFF0CA31026BA"]
+			id: "45D7D3C4B5A86B63"
+			tasks: [{
+				id: "1ACC5BB21AF38317"
+				item: "evilcraft:promise_tier_2"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36CA52452575AAC9"]
+			id: "386065E4275F51D1"
+			tasks: [{
+				id: "7A31E5AB9741F90D"
+				item: "occultism:burnt_otherstone"
+				type: "item"
+			}]
+			x: -6.2d
+			y: -9.3d
+		}
+		{
+			dependencies: ["5DB79A8D5E2FCD2F"]
+			id: "7ED6BC1BE9FF841E"
+			tasks: [{
+				id: "3A202212449ADFF0"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -9.3d
+			y: -10.65d
+		}
+		{
+			dependencies: [
+				"467634559F03DC8A"
+				"0EEFE99204F136F6"
+			]
+			id: "1D7C775B738CD3B1"
+			tasks: [{
+				id: "1CD4D906B4FED246"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: 3.65d
+			y: -5.15d
+		}
+		{
+			dependencies: ["6B2FD3867A1FD2CC"]
+			id: "47810D43DF1C0673"
+			tasks: [{
+				id: "1CCE5FAA306448B7"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: -3.7d
+			y: -6.85d
+		}
+		{
+			dependencies: ["47810D43DF1C0673"]
+			id: "6F0E16FB4F3F2B55"
+			tasks: [{
+				count: 27L
+				id: "26416A2214649306"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			x: -2.35d
+			y: -9.3d
+		}
+		{
+			dependencies: ["6F0E16FB4F3F2B55"]
+			id: "7D3BAD930835F132"
+			tasks: [{
+				id: "074B6FDD48F0DB67"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.35d
+		}
+		{
+			dependencies: ["7D3BAD930835F132"]
+			id: "526B5CCF1FD74A0F"
+			tasks: [{
+				id: "198BF3B1B75DBC56"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.35d
+		}
+		{
+			dependencies: [
+				"526B5CCF1FD74A0F"
+				"46296CDA2E69C6DE"
+			]
+			id: "722161DA0FD55AF6"
+			tasks: [{
+				id: "1520756B3A02DC3A"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 2.3d
+			y: -9.4d
+		}
+		{
+			dependencies: ["7D3BAD930835F132"]
+			id: "46296CDA2E69C6DE"
+			tasks: [{
+				id: "7E3D722AC7D34109"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.7d
+		}
+		{
+			dependencies: [
+				"722161DA0FD55AF6"
+				"526B5CCF1FD74A0F"
+			]
+			id: "2C6EF094E4EC91AE"
+			tasks: [{
+				id: "07BBD6279C0767C2"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -8.15d
+		}
+		{
+			dependencies: ["2C6EF094E4EC91AE"]
+			id: "7AD5F37DA658DF19"
+			tasks: [
+				{
+					id: "2AEB8C12FBFF45C0"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "5F837AEE9662DBF4"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+			]
+			x: 1.05d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7AD5F37DA658DF19"]
+			id: "467634559F03DC8A"
+			tasks: [{
+				id: "238FE020D88B8393"
+				item: "occultism:raw_iesnium"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -5.85d
+		}
+		{
+			dependencies: ["722465E5D2A5F243"]
+			id: "7240256F329F06CA"
+			tasks: [{
+				id: "08BB47EE173DF9CB"
+				item: "minecraft:emerald_ore"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2C6EF094E4EC91AE"]
+			id: "722465E5D2A5F243"
+			tasks: [{
+				id: "7AD64056AFCA9FBF"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 2.35d
+			y: -8.25d
+		}
+		{
+			dependencies: ["5E4012F348E74282"]
+			id: "69E3871F8B2888C4"
+			tasks: [{
+				id: "78FB2893E02C7820"
+				item: "mysticalagriculture:blaze_essence"
+				type: "item"
+			}]
+			x: -0.6d
+			y: -8.25d
+		}
+		{
+			dependencies: ["7240256F329F06CA"]
+			id: "0EEFE99204F136F6"
+			tasks: [{
+				id: "5A1620CAA965CFBF"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			x: 3.8d
+			y: -6.8d
+		}
+		{
+			dependencies: ["69E3871F8B2888C4"]
+			id: "4C61C547D974A6BD"
+			tasks: [{
+				id: "08C71659428DB5A7"
+				item: "enderio:xp_juice_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45D7D3C4B5A86B63"]
+			description: ["可以做可以不做拉"]
+			id: "43551B86671C3D59"
+			tasks: [{
+				id: "277412E7BB95400D"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			x: -4.45d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68176CCA8A2B7FA1"]
+			id: "210B24F033B52CAF"
+			tasks: [{
+				id: "450C766A5296F5DE"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			x: -6.2d
+			y: -1.6d
+		}
+		{
+			dependencies: ["210B24F033B52CAF"]
+			id: "47EEFC762582D24F"
+			tasks: [{
+				id: "542FAAEFDD5423D4"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			x: -4.35d
+			y: -1.65d
+		}
+		{
+			dependencies: ["6B2FD3867A1FD2CC"]
+			id: "66A870128FF5AC4E"
+			tasks: [{
+				id: "7DBB9AAFF10B57E4"
+				item: "mysticalagriculture:amethyst_seeds"
+				type: "item"
+			}]
+			x: -4.85d
+			y: -8.4d
+		}
+		{
+			dependencies: ["15815F7DA67E9BB0"]
+			id: "3A24999AA8A4ECC7"
+			tasks: [{
+				id: "0348B18874E5C6C7"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -3.2d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A24999AA8A4ECC7"]
+			id: "345E7B9214EC998F"
+			tasks: [{
+				id: "2B8A5A5141A3E133"
+				item: {
+					Count: 1b
+					id: "cyclic:ender_eye_reuse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.6d
+			y: -4.05d
+		}
+		{
+			dependencies: ["345E7B9214EC998F"]
+			id: "5E45C3DDE4AF26E6"
+			tasks: [{
+				id: "4E10B2DDC857F4A1"
+				item: "mysticalagriculture:enderium_seeds"
+				type: "item"
+			}]
+			x: -0.3d
+			y: -4.1d
+		}
+	]
+	title: "重操旧业"
+}

@@ -1,0 +1,814 @@
+{
+	autofocus_id: "7ED9D89274DAD4F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "37EEFFFBC53DFD0C"
+	group: "173EB34F78E38531"
+	icon: "mysticalagradditions:insanium_essence"
+	id: "37EEFFFBC53DFD0C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64E86092C60BDED3"]
+			description: [
+				"本整合包麻烦多看jei"
+				"抄写基本用于自动化"
+			]
+			id: "0D97467842FCE792"
+			rewards: [
+				{
+					id: "13D386D6BB4C7DDF"
+					item: "allthemodium:piglich_heart_block"
+					type: "item"
+				}
+				{
+					id: "080686E2D770B459"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+				{
+					id: "280E52D4E9B07B5A"
+					item: "ars_nouveau:glyph_craft"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2404CEE4F6B7B6BD"
+				title: "起源"
+				type: "checkmark"
+			}]
+			x: -25.8d
+			y: -14.55d
+		}
+		{
+			dependencies: ["2404CEE4F6B7B6BD"]
+			description: [
+				"通过法术书右键巫妖块即可获得创造精华"
+				"泥土精华同理，不过方块换为泥土"
+			]
+			id: "2DB332A2A974693D"
+			rewards: [{
+				id: "127D5AB6495CE042"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15617D23620A181B"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			title: "造物起源"
+			x: -24.3d
+			y: -14.55d
+		}
+		{
+			dependencies: [
+				"27302D379FDC4E7F"
+				"6988F7563E893722"
+			]
+			id: "52B060558FCB7DB1"
+			shape: "diamond"
+			tasks: [{
+				id: "428D5460D58162F2"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			title: "混元大罗灌注法"
+			x: -15.6d
+			y: -13.6d
+		}
+		{
+			dependencies: ["2DB332A2A974693D"]
+			id: "0B6293B0A0D3E720"
+			rewards: [
+				{
+					id: "4CF2D4C14F055954"
+					item: "ars_nouveau:glyph_crush"
+					type: "item"
+				}
+				{
+					id: "6B371D41D9C1D114"
+					item: "ars_nouveau:glyph_sensitive"
+					type: "item"
+				}
+				{
+					id: "2B32FC7D76B9EBB4"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "75E3730C7E2CF1DC"
+				item: { Count: 2b, id: "mysticalagriculture:water_essence" }
+				type: "item"
+			}]
+			title: "回收利用？"
+			x: -21.65d
+			y: -15.4d
+		}
+		{
+			dependencies: ["0B6293B0A0D3E720"]
+			id: "3F6A75961F6DF346"
+			tasks: [
+				{
+					id: "2B8A8AF5027177E3"
+					item: "mysticalagriculture:stone_essence"
+					type: "item"
+				}
+				{
+					id: "52E35503F49F8A4D"
+					item: "mysticalagriculture:prosperity_ingot"
+					type: "item"
+				}
+			]
+			x: -19.6d
+			y: -16.0d
+		}
+		{
+			dependencies: ["362C2219B0359A94"]
+			id: "7203F4B66433DE11"
+			tasks: [{
+				id: "1A324F84503B0465"
+				item: "mysticalagriculture:wood_essence"
+				type: "item"
+			}]
+			x: -22.1d
+			y: -12.95d
+		}
+		{
+			dependencies: ["27302D379FDC4E7F"]
+			id: "6988F7563E893722"
+			tasks: [
+				{
+					id: "48AB39823DED60C6"
+					item: "mysticalagriculture:fire_essence"
+					type: "item"
+				}
+				{
+					id: "2E0009BE5E966727"
+					item: "mysticalagriculture:air_essence"
+					type: "item"
+				}
+			]
+			x: -16.8d
+			y: -14.7d
+		}
+		{
+			dependencies: [
+				"27302D379FDC4E7F"
+				"6988F7563E893722"
+				"3F6A75961F6DF346"
+			]
+			id: "0F71EADF7D27F97D"
+			tasks: [
+				{
+					id: "7909C31862F2FBB1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "4E198A518A701875"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "26EBEEE8A1D768C2"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			x: -17.05d
+			y: -16.85d
+		}
+		{
+			dependencies: ["7203F4B66433DE11"]
+			id: "0ED2C9C9E0BD257E"
+			rewards: [{
+				id: "08E69571AB3B5D3D"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "327C6A8F52E8F69E"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+				{
+					id: "329F03EEC3190787"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			x: -21.05d
+			y: -12.45d
+		}
+		{
+			dependencies: [
+				"7203F4B66433DE11"
+				"08604981C897FB57"
+			]
+			id: "27302D379FDC4E7F"
+			tasks: [{
+				id: "2EA59325382DFB6A"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -18.6d
+			y: -13.6d
+		}
+		{
+			dependencies: ["0ED2C9C9E0BD257E"]
+			id: "08604981C897FB57"
+			tasks: [{
+				id: "7E23E308605DEBFF"
+				item: "ars_nouveau:arcane_platform"
+				type: "item"
+			}]
+			x: -17.2d
+			y: -12.05d
+		}
+		{
+			dependencies: ["0ED2C9C9E0BD257E"]
+			id: "24E1DC3DCFB6FA28"
+			tasks: [{
+				id: "0A3C0EEA31009608"
+				item: "ars_nouveau:blank_glyph"
+				type: "item"
+			}]
+			title: "爆炸就是艺术"
+			x: -18.65d
+			y: -9.9d
+		}
+		{
+			dependencies: ["52B060558FCB7DB1"]
+			id: "253A8359971F3C3C"
+			tasks: [{
+				id: "7A7DA243C0758BD7"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			x: -21.25d
+			y: -10.85d
+		}
+		{
+			dependencies: ["253A8359971F3C3C"]
+			id: "626AAE498D5B7727"
+			tasks: [{
+				id: "0835AA7FDC12B9CF"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -10.15d
+		}
+		{
+			dependencies: ["24E1DC3DCFB6FA28"]
+			id: "22E40C310DCD70E4"
+			tasks: [
+				{
+					id: "6F5B6F60639157D6"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "27A29E7FD73CF549"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: -16.9d
+			y: -10.5d
+		}
+		{
+			dependencies: ["22E40C310DCD70E4"]
+			id: "5349F05EB811B03B"
+			rewards: [{
+				id: "10C81B0E290230AC"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4429E868B2C6E372"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -15.6d
+			y: -8.6d
+		}
+		{
+			dependencies: ["5349F05EB811B03B"]
+			description: ["记得多做几个"]
+			id: "2C0C48853E1EE8D5"
+			tasks: [{
+				id: "6B20AAC52566662C"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -15.45d
+			y: -6.45d
+		}
+		{
+			dependencies: ["5349F05EB811B03B"]
+			description: ["花瓣不够？试试骨粉？"]
+			id: "5A2B871CC4A17AF3"
+			tasks: [{
+				id: "3DB673AD9750FA1D"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -13.65d
+			y: -8.7d
+		}
+		{
+			dependencies: [
+				"22E40C310DCD70E4"
+				"1D9E790C4C771D00"
+			]
+			id: "4057462ADD83A6AA"
+			tasks: [{
+				id: "510960162909C44A"
+				item: "mysticalagriculture:mystical_flower_essence"
+				type: "item"
+			}]
+			x: -16.95d
+			y: -7.9d
+		}
+		{
+			dependencies: ["22E40C310DCD70E4"]
+			id: "1D9E790C4C771D00"
+			tasks: [{
+				id: "0B66198156E7831D"
+				item: "mysticalagriculture:earth_essence"
+				type: "item"
+			}]
+			x: -17.95d
+			y: -8.9d
+		}
+		{
+			dependencies: ["5A2B871CC4A17AF3"]
+			id: "684EB7B133CE452A"
+			tasks: [
+				{
+					id: "150073828B7D0439"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "0F0C374C855160E8"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: -14.35d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"684EB7B133CE452A"
+				"2C0C48853E1EE8D5"
+			]
+			description: ["魔力钢获取第一个之后就可以进行灌注获取"]
+			id: "0BF6E4FCAF4FAAFE"
+			tasks: [{
+				id: "0D300177B87623BF"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -14.05d
+			y: -6.05d
+		}
+		{
+			dependencies: ["253A8359971F3C3C"]
+			id: "35CECB416CCAE0B6"
+			tasks: [{
+				id: "1FC8B17B3015BC9F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -19.95d
+			y: -10.05d
+		}
+		{
+			dependencies: ["0BF6E4FCAF4FAAFE"]
+			description: ["前期请不要把催化器改变"]
+			id: "30896FFD586E99E4"
+			rewards: [{
+				count: 2
+				id: "0B77AA07DFA486C2"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ECF217134F73343"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"626AAE498D5B7727"
+				"253A8359971F3C3C"
+			]
+			id: "741A63523A79A708"
+			tasks: [{
+				id: "4679F1B41A78B90C"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.7d
+		}
+		{
+			dependencies: ["30896FFD586E99E4"]
+			id: "78A074419D57D1EE"
+			tasks: [{
+				id: "53B77DAEBAA0D68C"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.7d
+		}
+		{
+			dependencies: ["30896FFD586E99E4"]
+			id: "210762AE62E6B85E"
+			tasks: [{
+				id: "4055135CB33D1761"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: -11.6d
+			y: -5.7d
+		}
+		{
+			dependencies: ["458615CB7D0468B2"]
+			id: "0CCACC499EFB87CD"
+			tasks: [{
+				id: "160F786A32DF286A"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.9d
+		}
+		{
+			dependencies: ["30896FFD586E99E4"]
+			id: "403F5362E6700B56"
+			tasks: [{
+				id: "445CD3CEAED08391"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: -11.85d
+			y: -7.3d
+		}
+		{
+			dependencies: [
+				"78A074419D57D1EE"
+				"210762AE62E6B85E"
+				"403F5362E6700B56"
+			]
+			id: "458615CB7D0468B2"
+			tasks: [{
+				id: "0A2037F1CFF11BC1"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: -10.35d
+			y: -8.7d
+		}
+		{
+			dependencies: ["0CCACC499EFB87CD"]
+			id: "16C39EB85F8341C4"
+			tasks: [{
+				id: "01662A184E871974"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -13.1d
+			y: -10.9d
+		}
+		{
+			dependencies: ["1D9E790C4C771D00"]
+			id: "3E0166C3EEF09761"
+			tasks: [{
+				id: "643487CC6F1462B6"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: -18.1d
+			y: -7.0d
+		}
+		{
+			dependencies: ["16C39EB85F8341C4"]
+			id: "4E47F12023AC7AA7"
+			tasks: [{
+				id: "022F12C0BE8C3C57"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -13.1d
+			y: -12.55d
+		}
+		{
+			dependencies: ["5349F05EB811B03B"]
+			id: "5F4CDE57069F74B8"
+			tasks: [
+				{
+					id: "783CDFCE4A0709AA"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "2D082C75DC1B1F58"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "4E134BB5E85177A3"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			x: -14.85d
+			y: -9.7d
+		}
+		{
+			dependencies: ["4E47F12023AC7AA7"]
+			description: ["收容盖亚之后，盖亚会产出魔力珍珠等"]
+			id: "5F8F1EE889668C5D"
+			tasks: [{
+				id: "16BCC01C0BED9678"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -10.55d
+			y: -12.55d
+		}
+		{
+			dependencies: [
+				"5F8F1EE889668C5D"
+				"5718C76524FCCA22"
+			]
+			id: "1D670F05922E63DE"
+			tasks: [{
+				id: "2D5AE0EBA9EAABF2"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -8.7d
+			y: -12.6d
+		}
+		{
+			dependencies: ["1D670F05922E63DE"]
+			id: "2EE75DA0D87EC8FB"
+			shape: "diamond"
+			tasks: [{
+				id: "6B027AD6F851559C"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			x: -8.6d
+			y: -10.95d
+		}
+		{
+			dependencies: ["4E47F12023AC7AA7"]
+			description: ["粉色凋零可以掉落召唤凋零所需要材料"]
+			id: "5718C76524FCCA22"
+			rewards: [
+				{
+					id: "6B0F632B8C56AAF6"
+					item: "minecraft:mossy_cobblestone"
+					type: "item"
+				}
+				{
+					id: "2F5D2DA9B5C4273C"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:mob_jar"
+						tag: {
+							BlockEntityTag: {
+								Items: [ ]
+								entityTag: {
+									AbsorptionAmount: 0.0f
+									Air: 300s
+									ArmorDropChances: [
+										0.085f
+										0.085f
+										0.085f
+										0.085f
+									]
+									ArmorItems: [
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									Attributes: [
+										{
+											Base: 0.08d
+											Name: "forge:entity_gravity"
+										}
+										{
+											Base: 0.0d
+											Name: "forge:step_height_addition"
+										}
+										{
+											Base: 40.0d
+											Modifiers: [{
+												Amount: 0.053017521764432744d
+												Name: "Random spawn bonus"
+												Operation: 1
+												UUID: [I;
+													-841834309
+													-202159827
+													-1223935480
+													1336677619
+												]
+											}]
+											Name: "minecraft:generic.follow_range"
+										}
+										{
+											Base: 0.6000000238418579d
+											Name: "minecraft:generic.movement_speed"
+										}
+									]
+									BalmData: { }
+									Brain: {
+										memories: { }
+									}
+									CanPickUpLoot: 0b
+									CanUpdate: 1b
+									DeathTime: 0s
+									FallDistance: 0.0f
+									FallFlying: 0b
+									Fire: -1s
+									ForgeCaps: {
+										"curios:inventory": {
+											Curios: [ ]
+										}
+										"cyclic:living_entity_data": { }
+										"embers:scales": {
+											scales: 0.0d
+										}
+										"mekanism:radiation": {
+											radiation: 1.0E-7d
+										}
+										"shrink:shrunk": {
+											defaulteyeheight: 0.0f
+											fixed: 0b
+											height: 0.0f
+											isshrinking: 0b
+											isshrunk: 0b
+											scale: 1.0f
+											width: 0.0f
+										}
+									}
+									ForgeData: { }
+									HandDropChances: [
+										0.085f
+										0.085f
+									]
+									HandItems: [
+										{ }
+										{ }
+									]
+									Health: 300.0f
+									HurtByTimestamp: 0
+									HurtTime: 0s
+									Invul: 0
+									Invulnerable: 0b
+									LeftHanded: 0b
+									Motion: [
+										0.0d
+										-0.0784000015258789d
+										0.0d
+									]
+									OnGround: 1b
+									PersistenceRequired: 0b
+									PortalCooldown: 0
+									Pos: [
+										89.5d
+										-59.5d
+										39.5d
+									]
+									Rotation: [
+										76.15831f
+										0.0f
+									]
+									UUID: [I;
+										1002148504
+										1217544826
+										-1853210484
+										-668786318
+									]
+									"forge:spawn_type": "CONVERSION"
+									id: "botania:pink_wither"
+								}
+								id: "ars_nouveau:mob_jar"
+							}
+							entityId: "botania:pink_wither"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7546EA0B0B56571C"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -12.9d
+			y: -14.3d
+		}
+		{
+			dependencies: ["1D670F05922E63DE"]
+			id: "500AE583AA1207D6"
+			tasks: [{
+				id: "2C41FFCCDCE3746A"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: -6.9d
+			y: -12.6d
+		}
+		{
+			dependencies: ["626AAE498D5B7727"]
+			id: "28C0E0735FC29395"
+			tasks: [{
+				id: "3E0BC2AA3029B7B8"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -23.6d
+			y: -8.7d
+		}
+		{
+			dependencies: ["28C0E0735FC29395"]
+			id: "72804CBAEEFB9FC5"
+			tasks: [{
+				id: "4723A39A18D2C5EE"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -6.85d
+		}
+		{
+			dependencies: ["4057462ADD83A6AA"]
+			description: ["maybe"]
+			id: "5B058C2A00F51B70"
+			tasks: [{
+				id: "2FC7B17A12FD44C4"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			x: -17.15d
+			y: -6.25d
+		}
+		{
+			can_repeat: true
+			id: "7F5B86E7205D2A98"
+			rewards: [{
+				id: "30C6E225C2B2C25F"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC4C6F54D7C31E1"
+				type: "checkmark"
+			}]
+			x: -6.95d
+			y: -11.0d
+		}
+		{
+			description: ["可以进行自动化啦"]
+			id: "4FB3ADAEF66D8A6F"
+			tasks: [{
+				id: "3BCCB1AF0D2195EA"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -8.9d
+			y: -14.3d
+		}
+		{
+			dependencies: ["2DB332A2A974693D"]
+			id: "362C2219B0359A94"
+			tasks: [{
+				id: "33C6FC979A48F867"
+				item: "mysticalagriculture:dirt_essence"
+				type: "item"
+			}]
+			x: -23.15d
+			y: -13.65d
+		}
+	]
+	title: "虚无与精华"
+}

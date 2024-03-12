@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5861E08908F22387"
+	group: "4C7F96D024EB0650"
+	icon: "mysticalagriculture:prudentium_essence"
+	id: "5861E08908F22387"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4098A94D9764122D"]
+			id: "2FB055D6DE92E5E6"
+			tasks: [{
+				id: "0936495FC279037B"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -23.85d
+			y: -19.7d
+		}
+		{
+			dependencies: ["788D9E4B01D6F2B2"]
+			id: "6072350D7BF45BFC"
+			tasks: [{
+				id: "33CBAD6F77901A32"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -22.55d
+			y: -15.8d
+		}
+		{
+			dependencies: [
+				"5FD54F61E503A529"
+				"2FB055D6DE92E5E6"
+			]
+			id: "788D9E4B01D6F2B2"
+			tasks: [{
+				id: "41822D94AD3DA492"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: -22.4d
+			y: -18.05d
+		}
+		{
+			dependencies: ["55E9574A1FD8BD9B"]
+			id: "560D4EE5177FD580"
+			tasks: [{
+				id: "6A24B3F1AD51DBDC"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: -18.85d
+			y: -15.8d
+		}
+		{
+			dependencies: ["4098A94D9764122D"]
+			id: "5FD54F61E503A529"
+			tasks: [{
+				id: "00D9129BDDC908A6"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -19.7d
+		}
+		{
+			dependencies: ["6072350D7BF45BFC"]
+			id: "55E9574A1FD8BD9B"
+			tasks: [{
+				id: "7E4908EEF476310D"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -15.8d
+		}
+		{
+			dependencies: ["560D4EE5177FD580"]
+			id: "0D44C30CE4767B16"
+			rewards: [{
+				id: "1AC8EEEED5FC5472"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54F06FBF16403DD1"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			title: "附魔台"
+			x: -16.9d
+			y: -15.8d
+		}
+		{
+			dependencies: ["0D44C30CE4767B16"]
+			id: "1D43737364F9D990"
+			tasks: [{
+				id: "455D3F78E14AD816"
+				item: "ars_caelum:ritual_conjure_island_sculk"
+				type: "item"
+			}]
+			x: -14.95d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D44C30CE4767B16"]
+			id: "2F01E5A03AF77A27"
+			rewards: [{
+				id: "78FE42734DE86B5D"
+				item: "ars_nouveau:purple_archwood_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "192D509045629212"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -14.8d
+			y: -14.4d
+		}
+		{
+			dependencies: ["1D43737364F9D990"]
+			id: "47A406527F1BAECE"
+			tasks: [{
+				id: "292F70DD51484ACC"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: -12.6d
+			y: -18.05d
+		}
+		{
+			dependencies: ["2F01E5A03AF77A27"]
+			id: "0ADC11BD7EDB0374"
+			tasks: [{
+				id: "4618A8A6CCB88840"
+				item: "ars_caelum:ritual_conjure_island_end_portal"
+				type: "item"
+			}]
+			x: -12.45d
+			y: -14.35d
+		}
+		{
+			dependencies: ["47A406527F1BAECE"]
+			id: "08C7D8D08A3F1087"
+			tasks: [{
+				id: "40D50EE857CEAF6D"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: -10.65d
+			y: -18.1d
+		}
+		{
+			dependencies: ["0ADC11BD7EDB0374"]
+			id: "166021E808623FE1"
+			tasks: [{
+				id: "11A339D6B6FBF1C9"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			x: -10.2d
+			y: -14.35d
+		}
+	]
+	title: "另一面"
+}

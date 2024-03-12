@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0047CCC01AEE774E"
+	group: "5710CAA7592914F8"
+	icon: "mysticalagriculture:imperium_essence"
+	id: "0047CCC01AEE774E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C27002C4856A03F"]
+			id: "5876C61AA0966CEE"
+			tasks: [{
+				id: "1E2A735999B4F38E"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: -13.1d
+			y: -12.2d
+		}
+		{
+			dependencies: ["15815F7DA67E9BB0"]
+			id: "4E4BE9139C81D01D"
+			tasks: [{
+				id: "631A25AAAFAC5C5D"
+				item: "extendedcrafting:black_iron_block"
+				type: "item"
+			}]
+			x: -11.45d
+			y: -13.6d
+		}
+		{
+			dependencies: ["4E4BE9139C81D01D"]
+			id: "1FBE1DF24E6D9029"
+			tasks: [{
+				id: "6D46139FCB720CF8"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: -9.85d
+			y: -12.25d
+		}
+		{
+			dependencies: [
+				"4E4BE9139C81D01D"
+				"5876C61AA0966CEE"
+				"1FBE1DF24E6D9029"
+			]
+			id: "1140D506FA20EC2D"
+			tasks: [{
+				id: "0215EDC160DA2CA5"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: -11.4d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0D4FBF5EFF42D74B"]
+			id: "63197E85059C6FA5"
+			tasks: [{
+				id: "14F8A5B01571F47E"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			x: -13.05d
+			y: -9.05d
+		}
+		{
+			dependencies: ["1D7C775B738CD3B1"]
+			id: "0D4FBF5EFF42D74B"
+			tasks: [{
+				id: "5230F5B4E8C758D0"
+				item: "alltheores:steel_dust"
+				type: "item"
+			}]
+			x: -13.05d
+			y: -10.55d
+		}
+		{
+			dependencies: [
+				"63197E85059C6FA5"
+				"0A99E7CEAB54EC1E"
+				"1140D506FA20EC2D"
+			]
+			id: "491A535CD3BC52C2"
+			tasks: [{
+				id: "1883381C609F7242"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -11.4d
+			y: -9.1d
+		}
+		{
+			dependencies: ["1D7C775B738CD3B1"]
+			id: "0A99E7CEAB54EC1E"
+			tasks: [{
+				id: "0A717CDA0C40FBBA"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -9.8d
+			y: -9.1d
+		}
+		{
+			dependencies: [
+				"491A535CD3BC52C2"
+				"50B25E0196F7BE26"
+			]
+			id: "3E7FCAD5CE001EC6"
+			tasks: [{
+				id: "26DD4E478013F609"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -11.35d
+			y: -7.75d
+		}
+		{
+			dependencies: ["3E7FCAD5CE001EC6"]
+			id: "42CB4686B323B653"
+			tasks: [{
+				id: "2CF69E358D961C21"
+				item: "extradisks:advanced_machine_casing"
+				type: "item"
+			}]
+			x: -13.05d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"3E7FCAD5CE001EC6"
+				"42CB4686B323B653"
+			]
+			id: "3D5D26D2C7356641"
+			tasks: [{
+				id: "38DFCED6BE99D138"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -11.3d
+			y: -6.1d
+		}
+		{
+			dependencies: ["2C0C48853E1EE8D5"]
+			id: "6E2E017D68F8FC3D"
+			tasks: [{
+				id: "3A588C5ACEFCB567"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -7.75d
+		}
+		{
+			dependencies: ["6E2E017D68F8FC3D"]
+			id: "50B25E0196F7BE26"
+			tasks: [{
+				id: "27982C334FC595F0"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -9.85d
+			y: -7.75d
+		}
+		{
+			dependencies: ["3D5D26D2C7356641"]
+			id: "18B2F2C02A69FA5B"
+			tasks: [{
+				id: "2EC86AFACD2E259F"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: -11.3d
+			y: -4.65d
+		}
+		{
+			dependencies: ["3D5D26D2C7356641"]
+			id: "0BDBB9D909B6A984"
+			tasks: [{
+				id: "4AD70B2A9D0DC070"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -9.7d
+			y: -6.05d
+		}
+		{
+			dependencies: ["0BDBB9D909B6A984"]
+			id: "0836281C064A6194"
+			tasks: [{
+				id: "30358E2227639569"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -6.05d
+		}
+		{
+			dependencies: [
+				"0836281C064A6194"
+				"6E2E017D68F8FC3D"
+				"5EE166EEC84F479E"
+			]
+			id: "63EEE2D4C4817527"
+			tasks: [{
+				id: "740990B5FD19FA8F"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.8d
+		}
+		{
+			dependencies: [
+				"63EEE2D4C4817527"
+				"3C52BC05C6BD8935"
+			]
+			id: "402EEC3CFD361050"
+			tasks: [{
+				id: "3BA50AE87F286000"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -5.2d
+			y: -6.85d
+		}
+		{
+			dependencies: ["18B2F2C02A69FA5B"]
+			id: "3FAB16525B7EF520"
+			tasks: [{
+				id: "3A8F3E1F2E47D34A"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -9.65d
+			y: -4.65d
+		}
+		{
+			dependencies: ["3FAB16525B7EF520"]
+			id: "3C52BC05C6BD8935"
+			tasks: [{
+				id: "102C5C2C43C459AD"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: -8.15d
+			y: -4.65d
+		}
+		{
+			dependencies: ["1140D506FA20EC2D"]
+			id: "5EE166EEC84F479E"
+			tasks: [{
+				id: "470942B5084C9D45"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: -7.1d
+			y: -10.55d
+		}
+		{
+			dependencies: ["18B2F2C02A69FA5B"]
+			id: "2DC3B3F8E4E726C5"
+			tasks: [{
+				id: "43F260768094A0E8"
+				item: {
+					Count: 1b
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.05d
+			y: -4.65d
+		}
+		{
+			dependencies: ["50B25E0196F7BE26"]
+			id: "4E16CD2A77CBD013"
+			tasks: [{
+				id: "6B925710E982A7E2"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -9.15d
+		}
+		{
+			dependencies: ["402EEC3CFD361050"]
+			id: "24F0D2C3A3385F61"
+			tasks: [{
+				id: "3388F9E871CEA0B6"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -9.05d
+		}
+		{
+			dependencies: ["0836281C064A6194"]
+			id: "278D22930F87FA2B"
+			tasks: [{
+				id: "73A11835BE97E8CF"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -6.4d
+			y: -4.7d
+		}
+	]
+	title: "魔法跃迁"
+}

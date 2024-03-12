@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "413F2D9A2597336E"
+	group: "5710CAA7592914F8"
+	icon: "mysticalagriculture:tertium_essence"
+	id: "413F2D9A2597336E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18B2F2C02A69FA5B"]
+			id: "5EF046AA889E7DDD"
+			tasks: [{
+				id: "5A1CF92FFD985FBD"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -54.05d
+			y: -53.85d
+		}
+		{
+			dependencies: ["31704CB6ED3C6365"]
+			id: "4098A94D9764122D"
+			tasks: [{
+				id: "1F07266B5856AE04"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: -45.85d
+			y: -48.1d
+		}
+		{
+			dependencies: [
+				"0334185F5CD621E1"
+				"7AED6426E1D5943D"
+			]
+			id: "31704CB6ED3C6365"
+			tasks: [{
+				id: "640AA66AEBFBB47A"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -47.6d
+			y: -48.05d
+		}
+		{
+			dependencies: ["5EF046AA889E7DDD"]
+			id: "3386CF5DA6A303D3"
+			tasks: [{
+				id: "12B08DB1BE992FE9"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -53.05d
+			y: -51.85d
+		}
+		{
+			dependencies: ["3386CF5DA6A303D3"]
+			id: "1CBF42DFA4D2ED69"
+			tasks: [{
+				id: "7FE44BE9D03523C2"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: -51.1d
+			y: -51.85d
+		}
+		{
+			dependencies: ["7B22B1924A70E9FD"]
+			id: "0334185F5CD621E1"
+			tasks: [{
+				id: "1C987037948D6134"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -49.35d
+			y: -48.9d
+		}
+		{
+			dependencies: ["7B22B1924A70E9FD"]
+			id: "65BAB230F3DA896D"
+			tasks: [{
+				id: "29C16539D1E5DAD8"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -52.95d
+			y: -48.95d
+		}
+		{
+			dependencies: [
+				"65BAB230F3DA896D"
+				"0334185F5CD621E1"
+			]
+			id: "4E1FFBB78F567438"
+			tasks: [{
+				id: "3A028F6E405338D4"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: -51.05d
+			y: -47.25d
+		}
+		{
+			dependencies: ["749797BDE6A5FA17"]
+			id: "7B22B1924A70E9FD"
+			tasks: [{
+				id: "746AC4CFFC468FF6"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: -51.1d
+			y: -48.9d
+		}
+		{
+			dependencies: [
+				"7AEC988DCA1BE871"
+				"3386CF5DA6A303D3"
+			]
+			id: "749797BDE6A5FA17"
+			tasks: [{
+				id: "16CEF42CC835F1C7"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: -51.1d
+			y: -50.35d
+		}
+		{
+			dependencies: ["1CBF42DFA4D2ED69"]
+			id: "7E56D29226F53063"
+			tasks: [{
+				id: "326A62F8D4D00A8A"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: -49.25d
+			y: -51.9d
+		}
+		{
+			dependencies: ["3632B3081FD4EC4D"]
+			id: "7AEC988DCA1BE871"
+			tasks: [{
+				id: "034406A1A97E9E88"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
+			}]
+			x: -53.0d
+			y: -50.35d
+		}
+		{
+			dependencies: ["5EF046AA889E7DDD"]
+			id: "70AE2F2687F36CD8"
+			tasks: [{
+				id: "74BB6327A3369EE5"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -54.65d
+			y: -51.85d
+		}
+		{
+			dependencies: [
+				"525E23A26BF79391"
+				"70AE2F2687F36CD8"
+			]
+			id: "3632B3081FD4EC4D"
+			tasks: [{
+				id: "7731520EDC97EE32"
+				item: "elementalcraft:springaline_cluster"
+				type: "item"
+			}]
+			x: -54.65d
+			y: -50.4d
+		}
+		{
+			dependencies: ["0E24B5CBE08ACFFA"]
+			id: "525E23A26BF79391"
+			tasks: [{
+				id: "2A926F33CE79DC6D"
+				item: "mysticalagradditions:molten_imperium_bucket"
+				type: "item"
+			}]
+			x: -56.35d
+			y: -50.35d
+		}
+		{
+			dependencies: ["5EF046AA889E7DDD"]
+			id: "0E24B5CBE08ACFFA"
+			tasks: [{
+				id: "779AC4DDC0CB3F6F"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -56.3d
+			y: -51.8d
+		}
+		{
+			dependencies: ["4E1FFBB78F567438"]
+			id: "7AED6426E1D5943D"
+			tasks: [{
+				id: "1EF61E8E93A1F891"
+				item: "alltheores:constantan_gear"
+				type: "item"
+			}]
+			x: -49.15d
+			y: -47.25d
+		}
+	]
+	title: "原子工艺"
+}

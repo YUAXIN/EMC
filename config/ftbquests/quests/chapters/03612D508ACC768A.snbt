@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "03612D508ACC768A"
+	group: "7CC7F1F9CC8E1088"
+	id: "03612D508ACC768A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2EC8B7A548981BA5"
+			rewards: [{
+				id: "7F2B3B5B1E213933"
+				item: {
+					Count: 1b
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							5
+							2
+							5
+						]
+						Deployed: 0b
+						File: "创造魔力池.nbt"
+						Mirror: "NONE"
+						Owner: "YUAXIN"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4AF2F498C92DEAC0"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E58510FC74DF9B7"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4668B2390BD47D2E"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06D9FE1D544603AE"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6973409E2C5D18DB"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68BD1CAF9F96A82F"
+					item: "botania:mana_diamond_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "41E026ADA6271F85"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22F4983EA8C04841"
+					item: "botania:conjuration_catalyst"
+					type: "item"
+				}
+			]
+			title: "创造魔力池"
+			x: -10.4d
+			y: -11.05d
+		}
+		{
+			id: "5DB79A8D5E2FCD2F"
+			rewards: [{
+				id: "24124FD25C06BD5C"
+				item: {
+					Count: 1b
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 88
+							Y: -60
+							Z: 68
+						}
+						Bounds: [
+							3
+							1
+							3
+						]
+						Deployed: 1b
+						File: "2.nbt"
+						Mirror: "NONE"
+						Owner: "YUAXIN"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "09D01750500FDABC"
+				item: "ae2:cell_component_4k"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "机械手"
+			x: -5.85d
+			y: -11.05d
+		}
+	]
+	title: "多方快"
+}

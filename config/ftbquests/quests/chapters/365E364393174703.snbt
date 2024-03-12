@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "365E364393174703"
+	group: "4C7F96D024EB0650"
+	id: "365E364393174703"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"17F7FD23DBEA8486"
+				"469807D5ABB72F75"
+				"14FD4241C35FF1C7"
+				"281CCCC327FDE33E"
+				"47BBB3EAEDD50B7D"
+				"7E474490DE6BA81F"
+				"781847A0DD62C24D"
+				"456BA588271FD685"
+			]
+			id: "70DD11B2F35FC9B0"
+			tasks: [{
+				id: "5EBEB5A84D5CBD52"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: 3.35d
+			y: 1.9d
+		}
+		{
+			dependencies: ["52B060558FCB7DB1"]
+			id: "456BA588271FD685"
+			tasks: [{
+				id: "2565FC96269A6085"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.15d
+		}
+		{
+			dependencies: ["2DB332A2A974693D"]
+			id: "14FD4241C35FF1C7"
+			tasks: [{
+				id: "3F812A7EF703146B"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: -0.45d
+			y: 0.7d
+		}
+		{
+			dependencies: ["2EE75DA0D87EC8FB"]
+			id: "781847A0DD62C24D"
+			tasks: [{
+				id: "6EE6B030FD6955CF"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			x: -0.45d
+			y: 2.65d
+		}
+		{
+			dependencies: ["1D7C775B738CD3B1"]
+			id: "47BBB3EAEDD50B7D"
+			tasks: [{
+				id: "4F0157EB97FD6120"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: -0.35d
+			y: 4.9d
+		}
+		{
+			id: "17F7FD23DBEA8486"
+			tasks: [{
+				id: "2665EBC487F30F0D"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: 6.95d
+			y: -1.35d
+		}
+		{
+			dependencies: ["560D4EE5177FD580"]
+			id: "281CCCC327FDE33E"
+			tasks: [{
+				id: "65BD9AFF60366E16"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.4d
+		}
+		{
+			dependencies: ["4098A94D9764122D"]
+			id: "469807D5ABB72F75"
+			tasks: [{
+				id: "7D55E97595F2C05A"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["18B2F2C02A69FA5B"]
+			id: "7E474490DE6BA81F"
+			tasks: [{
+				id: "72B18E904A85E7F9"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: 6.95d
+			y: 4.9d
+		}
+	]
+	title: "结束"
+}

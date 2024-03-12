@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34C4D2507E9C412F"
+	group: "7CC7F1F9CC8E1088"
+	id: "34C4D2507E9C412F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "44F5B6B2F1305666"
+			rewards: [{
+				id: "38031142B99859A3"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5B6D537764613B2C"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "恶魂之泪"
+			x: -16.35d
+			y: -8.9d
+		}
+		{
+			can_repeat: true
+			id: "3E32B767978147C6"
+			rewards: [{
+				id: "440F598181002C44"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "74DAD864F1BB04E2"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			title: "牛"
+			x: -14.2d
+			y: -8.85d
+		}
+		{
+			can_repeat: true
+			id: "68B36E5C227D9109"
+			rewards: [{
+				id: "52EEFD228A0D96CC"
+				item: "industrialforegoing:laser_lens15"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7A5DE622647A6A71"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			title: "透镜"
+			x: -11.8d
+			y: -8.85d
+		}
+		{
+			can_repeat: true
+			id: "618853FF4C9C07E8"
+			rewards: [{
+				id: "40B74D3E0DD43D7F"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 14L
+				id: "28FA5057C96D4417"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			title: "钢"
+			x: -16.35d
+			y: -6.8d
+		}
+		{
+			id: "6DA863A0CAC2B980"
+			rewards: [{
+				id: "0959D6EEFB307444"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_parchment"
+					tag: {
+						"ars_nouveau:caster": {
+							current_slot: 0
+							flavor: ""
+							hidden_recipe: ""
+							is_hidden: 0b
+							spell_count: 1
+							spells: {
+								spell0: {
+									name: ""
+									recipe: {
+										part0: "ars_nouveau:glyph_projectile"
+										part1: "ars_nouveau:glyph_explosion"
+										size: 2
+									}
+									sound: {
+										pitch: 1.0f
+										soundTag: {
+											id: "ars_nouveau:fire_family"
+										}
+										volume: 1.0f
+									}
+									spellColor: {
+										b: 180
+										g: 25
+										r: 255
+										type: "ars_nouveau:constant"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "08233EE871443A48"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: -14.05d
+			y: -6.75d
+		}
+		{
+			id: "2BF0D06B3181B2FC"
+			rewards: [{
+				id: "003E50DF26E49C1F"
+				item: "minecraft:quartz_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0DCFDDCC2014B151"
+				item: "mysticalagriculture:dirt_essence"
+				type: "item"
+			}]
+			title: "石英"
+			x: -11.8d
+			y: -6.8d
+		}
+		{
+			id: "505CDE12754975F0"
+			rewards: [{
+				count: 8
+				id: "7E8EFFB7F9FFAC83"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0AB6ACF9E0C6E1A3"
+				item: "mysticalagriculture:fluix_essence"
+				type: "item"
+			}]
+			x: -9.55d
+			y: -8.9d
+		}
+	]
+	title: "商店"
+}

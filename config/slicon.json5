@@ -1,0 +1,7 @@
+{
+  //copper_ore
+  "advanced": {
+    "cyclic:slime_bucket":{
+      "cyclic:wax_bucket":{
+        results: {"*": [{"id":'cyclic:membrane', "weight":100.0}]}}}}
+}

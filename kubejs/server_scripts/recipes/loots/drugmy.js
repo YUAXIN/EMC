@@ -1,0 +1,66 @@
+LootJS.modifiers((event) => {
+        event
+        .addEntityLootModifier("botania:doppleganger")
+        .addWeightedLoot([
+            Item.of('botania:mana_diamond').withChance(1000)
+        ]);
+        event
+        .addEntityLootModifier("botania:doppleganger")
+        .addWeightedLoot([
+            Item.of('botania:mana_powder').withChance(1000)
+        ]
+        );
+        event
+        .addEntityLootModifier("botania:doppleganger")
+        .addWeightedLoot([
+            Item.of('botania:mana_pearl').withChance(500)
+        ]
+        );
+        event
+        .addEntityLootModifier("botania:doppleganger")
+        .addWeightedLoot([
+            Item.of('botania:terrasteel_ingot').withChance(500)
+        ]
+        );
+        event
+        .addEntityLootModifier("botania:doppleganger")
+        .addWeightedLoot([
+            Item.of('botania:gaia_ingot').withChance(200)
+        ]
+        );
+        event
+        .addEntityLootModifier("minecraft:wither")
+        .addWeightedLoot([
+            Item.of('minecraft:beacon').withChance(500)
+        ]);
+        event
+        .addEntityLootModifier("botania:pink_wither")
+        .addWeightedLoot([
+            Item.of('minecraft:wither_skeleton_skull').withChance(600)
+        ]);
+        event
+        .addEntityLootModifier("botania:pink_wither")
+        .addWeightedLoot([
+            Item.of('minecraft:soul_sand').withChance(800)
+        ]);
+        event
+        .addEntityLootModifier("minecraft:wither")
+        .addWeightedLoot([
+            Item.of('32x minecraft:soul_sand').withChance(1000)
+        ]);
+        event
+        .addEntityLootModifier("minecraft:wither")
+        .addWeightedLoot([
+            Item.of('minecraft:wither_skeleton_skull').withChance(800)
+        ]);
+        event
+        .addEntityLootModifier("minecraft:wither")
+        .addWeightedLoot([
+            Item.of('4x minecraft:nether_star').withChance(700)
+        ]);
+        event
+        .addEntityLootModifier("occultism:afrit_wild")
+        .addWeightedLoot([
+            Item.of('4x occultism:afrit_essence').withChance(700)
+        ]);
+})
